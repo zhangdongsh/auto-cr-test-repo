@@ -44,10 +44,10 @@ class Dog extends Animal {
   }
 }
 
-const a = new Animal("Jack");
+let a = new Animal("Jack");
 // console.log(Animal?.stic, a, a.sayHi()); // My name is Jack
 
-const dog = new Dog("Spike", "eagle");
+let dog = new Dog("Spike", "eagle");
 // console.log(dog, dog.sayHi());
 
 class Params {
